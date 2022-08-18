@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('/SpaceGrotesk-Regular.otf');
+}
+* {
+    scroll-behavior: smooth;
+}
+.swal2-styled.swal2-confirm.swalBtnColor { color: #fff; background-color: #000; border: 2px solid black; }
+.swal2-styled.swal2-cancel.swalBtnColor { color:#000; border: 2px solid black; }
+.swal2-shown {font-family: 'SpaceGrotesk';}
