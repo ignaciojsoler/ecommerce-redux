@@ -9,9 +9,9 @@ const Navbar = () => {
   const { list } = useSelector(state => state.cart)
   const { user } = useSelector(state => state.user)
 
-  //TODO - Fix hover
+  //TODO - Fix padding en mobile
   return (
-    <nav className="absolute px-2 py-2.5 w-full z-50">
+    <nav className="absolute px-4 py-2.5 w-full z-50">
       <div className="container flex flex-wrap justify-between items-center mx-auto max-w-7xl  sm:px-4">
         <Link to="/" className="flex items-center">
           <span className="self-center text-xl font-semibold whitespace-nowrap text-black">
