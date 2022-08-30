@@ -5,7 +5,7 @@ import catalogDesktop from '../assets/catalogDesktop.webp'
 
 const Catalog = () => {
     return (
-        <section className='h-screen w-full '>
+        <section className='relative h-screen w-full'>
             <div className='absolute filter h-full w-full bg-catalog-mobile bg-gray-300 bg-fixed bg-blend-overlay bg-center bg-cover max-w-screen-2xl'>
             </div>
             <div className='relative  w-full h-full flex flex-col justify-center sm:flex-row sm:items-center'>
