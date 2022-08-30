@@ -8,7 +8,7 @@ const AboutUs = React.lazy(() => import('../components/AboutUs'));
 const Home = () => {
     return (
         <div>
-            <Suspense fallback={LoadingSpinner}>
+            <Suspense fallback={<LoadingSpinner/>}>
                 <Hero />
                 <AboutUs />
                 <Carousel />
