@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImgMobile from '../assets/aboutUsMobile.jpg'
+import aboutImgMobile from '../assets/aboutUsMobile.webp'
 
 const AboutUs = () => {
     return (
@@ -10,9 +10,9 @@ const AboutUs = () => {
                     <p className=' text-justify leading-7 sm:text-lg'>A passionate drive to exceed expectations. For more than 20 years, we've worked to deliver the best possible shopping experience, helping our customers express their style—not just buy products.
                         Reverie shop is a leading store offering compelling clothing, jewerely and electronics for men and women. Since 2000, we've been committed to providing our customers with the best possible service—and to improving it every day.</p>
                 </div>
-                <div className=''>
-                    <img src={aboutImgMobile} alt="" className='h-72 rounded-full sm:hidden'/>
-                    <img src={aboutImgMobile} alt="" className='object-fill hidden sm:block'/>
+                <div>
+                    <img src={aboutImgMobile} alt="" className='h-72 rounded-full m-auto sm:hidden'/>
+                    <img src={aboutImgMobile} alt="" className='h-full object-cover hidden sm:block'/>
                 </div>
             </div>
         </div>

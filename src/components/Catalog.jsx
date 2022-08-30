@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import catalogDesktop from '../assets/catalogDesktop.png'
+import catalogDesktop from '../assets/catalogDesktop.webp'
 
 const Catalog = () => {
     return (

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import CartItem from "../components/CartItem";
 import { Link, useNavigate } from "react-router-dom";
-import cartImage from '../assets/cartImage.jpg'
+import cartImage from '../assets/cartImage.webp'
 import Swal from 'sweetalert2'
 
 //Redux Toolkit

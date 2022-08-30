@@ -8,9 +8,9 @@ import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import swiper1 from '../assets/swiper1.jpg'
-import swiper2 from '../assets/swiper2.jpg'
-import swiper3 from '../assets/swiper3.jpg'
+import swiper1 from '../assets/swiper1.webp'
+import swiper2 from '../assets/swiper2.webp'
+import swiper3 from '../assets/swiper3.webp'
 
 //TODO - changes this component name
 const Carousel = () => {
