@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <div className=" m-auto max-w-screen-2xl">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/*" element={<Home />} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
         <Route path="/products" element={<ProductsPage />} />
