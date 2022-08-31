@@ -27,6 +27,7 @@
 - Tailwind CSS
 - React content loader
 - Sweetalert 2
+- Firebase
 
 ### Imágenes:
 ![Captura de pantalla 2022-08-18 - 10 07 54](https://user-images.githubusercontent.com/70725223/185403029-6f85932a-9b95-49e2-ac5f-bc4b1eec9990.png)
