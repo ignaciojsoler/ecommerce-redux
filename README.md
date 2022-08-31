@@ -2,7 +2,7 @@
 
 ¡Hola! Este es un e-commerce responsive que desarrollé con React JS, Redux, Firebase y Tailwind.
 
-Podes visitar el sitio web haciendo click aquí: https://ignaciojsoler.github.io/ecommerce-redux/
+**Podes visitar el sitio web haciendo click aquí:** https://ignaciojsoler.github.io/ecommerce-redux/
 
 ### Características funcionales:
 - El usuario accede a un catálogo de productos cargados a través de la API de Fake Store. Los productos pueden filtrarse a través de las categorías disponibles.
