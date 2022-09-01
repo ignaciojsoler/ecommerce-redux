@@ -15,7 +15,7 @@ const AboutUs = () => {
                 </div>
                 <div>
                     <img src={aboutImgMobile} alt="" className='h-72 rounded-full m-auto sm:hidden'/>
-                    <img src={aboutImgMobile} alt="" className='h-full object-cover hidden sm:block'/>
+                    <img src={aboutImgMobile} alt="" className='h-full w-full object-cover hidden sm:block sm:border'/>
                 </div>
             </div>
         </div>
