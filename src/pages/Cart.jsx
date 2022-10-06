@@ -93,7 +93,7 @@ const Cart = () => {
 
 
   return (
-    <div className="absolute pt-20 w-full h-full m-auto max-w-7xl md:px-12">
+    <div className="absolute pt-20 w-full h-full m-auto max-w-7xl md:px-12 md:relative">
       <div className=" mx-auto md:border md:px-10 md:rounded">
         <h3 className=" font-semibold text-2xl text-center py-5">
           Cart ({list.length > 0 ? list.length : "0"})
