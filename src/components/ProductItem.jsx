@@ -34,7 +34,6 @@ const ProductItem = () => {
       setLoading(true);
       const res = await fetch(`https://fakestoreapi.com/products/${id}`, {mode: 'cors'});
       setProduct(await res.json());
-      console.log(res);
       setLoading(false);
     };
 

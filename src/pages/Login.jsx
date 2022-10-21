@@ -23,7 +23,6 @@ const Login = () => {
             .then((userCredential) => {
                 // Signed in
                 const user = userCredential.user;
-                console.log(user);
                 dispatch(login(
                     {
                         uid: user.uid,
@@ -44,8 +43,8 @@ const Login = () => {
     }
 
     return (
-        <div className='absolute w-full h-full max-w-7xl'>
-            <div className=" mx-auto bg-white min-h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
+        <div className='relative w-full h-screen'>
+            <div className=" mx-auto bg-white min-h-full flex items-center justify-center px-4 sm:px-6 lg:px-8 border">
                 <div className="max-w-md w-full space-y-8">
                     <div>
                         <h1 className='text-center text-6xl'>Rêverie Shop</h1>

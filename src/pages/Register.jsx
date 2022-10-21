@@ -32,8 +32,6 @@ const Register = () => {
                     updateProfile(user, {
                         displayName: name
                     })
-                    console.log(user);
-                    
                     Swal.fire({
                         title: 'Good job!',
                         text: "You have registered correctly",
@@ -55,7 +53,7 @@ const Register = () => {
     }
 
     return (
-        <div className='absolute w-full h-full max-w-screen-xl'>
+        <div className='relative w-full h-screen'>
             <div className=" mx-auto bg-white min-h-full flex items-center justify-center px-4 sm:px-6 lg:px-8">
                 <div className="max-w-md w-full space-y-8">
                     <div>
